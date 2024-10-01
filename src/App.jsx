@@ -7,8 +7,9 @@ function App (){
 return (
     <>
       <div>
-        <NavBar />
-        <CartWidget />
+        <NavBar>
+          <CartWidget />
+        </NavBar>
       </div>
       <ItemListContainer title='Aquí verás nuestros productos...'/>
     </>
