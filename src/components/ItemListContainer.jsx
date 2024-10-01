@@ -1,6 +1,6 @@
 function ItemListContainer (props) {
     return (
-        <h1 text={props.title}> </h1>
+        <h1>{props.title}</h1>
     )
 }
 
